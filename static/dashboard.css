@@ -1,0 +1,42 @@
+.searchInp{
+    height:100%;
+    width: 75%;
+}
+.searchBtn{
+    border-radius: 20%;
+}
+.buttonn{
+    height: fit-content;
+    width: fit-content;
+}
+.newPostAndDonations{
+    text-align: right;
+}
+ @media (max-width:1000px){
+    .newPostAndDonations{
+        text-align: center;
+        padding-top: 2%;
+    }
+    .container-x1{
+        display: grid;
+    }
+    #form{
+        display: block;
+    }
+    .cards{
+        position:absolute;
+        left: 30%;
+    }
+    .organisation{
+        padding-bottom: 2px;
+
+    }
+ }
+
+ /* @media (min-width:990px) and (max-width:1087px){
+    .nav{
+        margin-bottom: 2px;
+    }
+ } */
+
+ 
